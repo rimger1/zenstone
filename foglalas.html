@@ -9,7 +9,9 @@
     <!--fejlec-->
     <div class="fejlec">
         <div class="zenstone">
-            <img src="ikt kepek/zenstone.png" alt="zenstone">
+            <a href="index.html">
+                <img src="ikt kepek/zenstone.png" alt="zenstone">
+            </a>
         </div>
         <div class="fejlec_navigacio">
             <div class="fejlec_navigacio_szoveg">
@@ -46,11 +48,44 @@
                 Opcionális
             </p>
         </div>
-        <div>
-            <label for="szukseges">
-                Teljes Név:
-            </label>
-            <input type="text" class="szukseges">
+        <!--textboxok-->
+        <div class="kiszallita_textbox">
+            <label for="teljes">Teljes Név:</label>
+            <input type="text" id="teljes" name="teljes">
+        </div>
+        <div class="kiszallita_textbox">
+            <label for="telszam">Telefonszám:</label>
+            <input type="text" id="telszam" name="telszam">
+        </div>
+        <div class="kiszallita_textbox">
+            <label for="lakc">Lakcím:</label>
+            <input type="text" id="lakc" name="lakc">
+        </div>
+        <div class="kiszallita_textbox">
+            <label for="rend">Rendelés:</label>
+            <input type="text" id="rend" name="rend">
+        </div>
+        <div class="kiszallita_textbox">
+            <label for="spec">Specifikációk:</label>
+            <input type="text" id="spec" name="spec">
+        </div>
+        <div class="kiszallita_gomb">
+            <input type="button" value="Megrendelem" onclick="alert('Megrendelte!')">
+        </div>
+    </div>
+    <div class="foglalas">
+        <div class="foglalas_cim">
+            <h1>
+                Foglaláshoz szükséges információk
+            </h1>
+        </div>
+        <div class="foglalas_telsz">
+            <h2>
+                Telefonszámunk: +36 70 987 7654
+            </h2>
+        </div>
+        <div class="foglalas_gomb">
+            <input type="button" value="Felhívom" onclick="alert('Hívja fel!')">
         </div>
     </div>
     <!--lablec-->
