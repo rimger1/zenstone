@@ -2,6 +2,27 @@
 
 /*Lábléc:*/
 
+.lablec{
+    background-color: white;
+    
+}
+hr{
+    color: pink;
+}
+#lablec_sor{
+    display: flex;
+    align-content: flex-start;
+}
+.lablec_facebook_kep{
+    
+    background-image:url(ikt\ kepek/facebook.png);
+    background-size:cover;
+}
+
+.lablec_instagram_kep{
+    background-image:url(ikt\ kepek/insta.png) ;
+    background-size: cover;
+}
 /*fooldal:*/
 
 /*erdekessegek:*/
