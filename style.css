@@ -1,4 +1,5 @@
 /*Fejléc:*/
+
 .fejlec{
     height: 100px;
     background-color: white;
@@ -35,6 +36,7 @@
     padding-top: 2%;
     padding-left: 5%;
 }
+
 /*Lábléc:*/
 
 .lablec{
@@ -69,7 +71,15 @@ hr{
     width: 50%;
     
 }
+
 /*fooldal:*/
+
+.tartalom{
+    background-image: url(iktkepek/tigers.png);
+    background-position: 700px;
+    
+
+}
 
 /*erdekessegek:*/
 
