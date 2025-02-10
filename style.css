@@ -85,5 +85,9 @@ hr{
 /*erdekessegek:*/
 
 /*etlap:*/
+.etlap{
+    background-image: url(iktkepek/hullamok.png);
+    background-size: contain;
+}
 
 /*foglalas:*/
