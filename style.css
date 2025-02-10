@@ -5,7 +5,7 @@
 }
 
 .fejlec{
-    height: 90px;
+    height: 95px;
     background-color: white;
     width: 100%;
     display: flex;
@@ -25,7 +25,7 @@
 }
 .fejlec_navigacio_szoveg{
     width: 600px;
-    padding-top: 3.5%;
+    padding-top: 5.5%;
 }
 .fejlec_navigacio{
     width: 600px;
@@ -102,8 +102,6 @@ hr{
 .tartalom:before{
     opacity: 0.1;
 }*/
-
-
 /*erdekessegek:*/
 .fotartalom{
     background-image: url(iktkepek/dargons.png);
@@ -134,5 +132,20 @@ hr{
 }
 
 /*etlap:*/
+.etlap{
+    position: relative;
+}
+
+.etlap:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    background: url(iktkepek/hullamok.png); 
+    background-size: contain;
+}
 
 /*foglalas:*/
