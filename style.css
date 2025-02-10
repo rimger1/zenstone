@@ -1,7 +1,11 @@
 /*Fejléc:*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .fejlec{
-    height: 100px;
+    height: 90px;
     background-color: white;
     width: 100%;
     display: flex;
@@ -15,18 +19,19 @@
     word-spacing: 10px;
 }
 .fejlec_navigacio_szoveg p{
-    width: 500px;
+    width: 600px;
     word-spacing: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .fejlec_navigacio_szoveg{
-    width: 500px;
+    width: 600px;
     padding-top: 3.5%;
 }
 .fejlec_navigacio{
-    width: 500px;
+    width: 600px;
     justify-content: right;
     float: right;
+
 }
 .zenstone{
     width: 350px;
@@ -75,12 +80,28 @@ hr{
 /*fooldal:*/
 
 .tartalom{
-    background-image: url(iktkepek/tigers.png);
-    background-position: 700px;
-    
-
+    position: relative;
 }
 
+.tartalom:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background: url(iktkepek/tigers.png); 
+    background-position: 700px;
+}
+/*.tartalom{
+    background-image: url(iktkepek/tigers.png);
+    background-position: 700px;
+    opacity: 0.4;
+}
+.tartalom:before{
+    opacity: 0.1;
+}*/
 /*erdekessegek:*/
 .fotartalom{
     background-image: url(iktkepek/dargons.png);
