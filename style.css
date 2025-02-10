@@ -102,6 +102,8 @@ hr{
 .tartalom:before{
     opacity: 0.1;
 }*/
+
+
 /*erdekessegek:*/
 .fotartalom{
     background-image: url(iktkepek/dargons.png);
@@ -112,7 +114,24 @@ hr{
     font-size: xx-large;
     
 }
+.robot{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    
+    
+}
+.robot_kep{
+    margin: 2%;
+    
+    
+}
+.robot_cim{
+}
 
+.robot_szoveg{
+}
 
 /*etlap:*/
 
