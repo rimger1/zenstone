@@ -82,6 +82,16 @@ hr{
 }
 
 /*erdekessegek:*/
+.fotartalom{
+    background-image: url(iktkepek/dargons.png);
+    background-size:contain;
+}
+.focim{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
 
 /*etlap:*/
 
