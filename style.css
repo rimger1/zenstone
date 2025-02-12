@@ -83,6 +83,15 @@ hr{
     position: relative;
 }
 
+.tartalom_etelek{
+    background-color: white;
+    border-radius: 3%;
+    border: rgba(231,231,231,0.8) 20px solid;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .tartalom:before {
     z-index: -1;
     content: '';
@@ -94,6 +103,7 @@ hr{
     background: url(iktkepek/tigers.png); 
     background-position: 700px;
 }
+
 /*.tartalom{
     background-image: url(iktkepek/tigers.png);
     background-position: 700px;
@@ -102,7 +112,10 @@ hr{
 .tartalom:before{
     opacity: 0.1;
 }*/
+
+
 /*erdekessegek:*/
+
 .fotartalom{
     background-image: url(iktkepek/dargons.png);
     background-size:contain;
@@ -111,24 +124,33 @@ hr{
     text-align: center;
     font-size: xx-large;
 }
-.tartalom_etelek{
+.robot_kerites {
+    background-color: rgba(231,231,231,0.8);
+    height: 480px;
+    width: 60%;
+    border-radius: 5%;
+    padding-top: 20px;
+    
+}
+.robot_kerites .robot{
     background-color: white;
-    border-radius: 3%;
-    border: rgba(231,231,231,0.8) 20px solid;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
+     
+    display: flex;
+    opacity: 1;
+    border-radius: 5%;
+    
+    
+    
 }
 .robot{
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
     
-    
+margin-left: 2%;
+margin-right: 2%;
 }
-.robot_kep{
+.robot_kep ,img{
     margin: 2%;
+    border-radius: 5%;
+    
     
     
 }
