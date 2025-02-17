@@ -71,12 +71,10 @@ hr{
     line-height: 50px;
     
 }
-
 .lablec_facebook_kep a img{
     width: 50%;
     float: right;   
 }
-
 .lablec_instagram_kep a img{
     width: 50%;
 }
@@ -86,7 +84,6 @@ hr{
 .tartalom{
     position: relative;
 }
-
 .tartalom_etelek{
     background-color: white;
     border-radius: 3%;
@@ -95,7 +92,6 @@ hr{
     margin: 0 auto;
     margin-top: 20px;
 }
-
 .tartalom:before {
     z-index: -1;
     content: '';
@@ -170,9 +166,7 @@ hr{
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    
 }
-
 .erdekessegek_arkadok_kerites .erdekessegek_arkadok{
     background-color: white;
     display: flex;
@@ -188,11 +182,11 @@ hr{
     margin: 2%;
     border-radius: 5%;
 }
+
 /*etlap:*/
 .etlap{
     position: relative;
 }
-
 .etlap:before {
     z-index: -1;
     content: '';
@@ -201,20 +195,23 @@ hr{
     width: 100%;
     height: 100%;
     background: url(iktkepek/ujfak.jpeg); 
-    background-size: contain;
+    background-size: cover;
 }
 .etlap_kerites{
     background-color: rgba(231,231,231,0.8);
-    height: 1000px;
     width: 60%;
-    border-radius: 5%;
-    padding-top: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.etlap_kerites .etlap_etelek{
+.etlap_etelek{
     background-color: white;    
     display: flex;
-    opacity: 1;
-    border-radius: 5%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*foglalas:*/
