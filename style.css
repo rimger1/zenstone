@@ -89,13 +89,51 @@ hr{
 
 .tartalom_etelek{
     background-color: white;
-    border-radius: 3%;
-    border: rgba(231,231,231,0.8) 20px solid;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
-
+.tartalom_etelek_keret{
+    background-color: rgba(231,231,231,0.8);
+    width: 80%;
+    border-radius: 40px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tartalom_etelek_kep{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.tartalom_etelek_cim{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.tartalom_etelek_szoveg{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.tartalom_etelek_gomb{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.galery_kep{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .tartalom:before {
     z-index: -1;
     content: '';
