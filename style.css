@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /*Fejléc:*/
 .fejlec{
     height: 110px;
@@ -159,6 +160,7 @@ hr{
     background-image: url(iktkepek/newdragons.png);
     background-size:contain;  
     background-position:right top;
+    padding-bottom: 50px;
 }
 .focim {
     padding-top: 2%;
@@ -172,8 +174,8 @@ hr{
 }
 .robot_kerites {
     background-color: rgba(231,231,231,0.8);
-    height: 530px;
-    width: 60%;
+    height: 500px;
+    width: 80%;
     border-radius: 40px;
     padding: 20px;
     margin-left: auto;
@@ -185,6 +187,7 @@ hr{
     display: flex;
     opacity: 1;
     border-radius: 20px;
+    height: 420px;
     
     
     
@@ -196,12 +199,18 @@ hr{
 }
 .robot_kep , .robot_kep img{
     margin: 2%;
-    border-radius: 5%;    
+    border-radius: 5%; 
+    margin-left: 5%;   
+    
+}
+.robot_kep img{
+    width: 90%;
 }
 .robot_szoveg{
-    line-height: 30px;
+    line-height: 25px;
     font-size: large;
     padding-left: 2%;
+    width: 50%;
 }
 .robot_szoveg, .robot_szoveg h1{
     margin-bottom: 20px;
@@ -214,19 +223,24 @@ hr{
 }
 .robot_szoveg p{
     text-align: left;
+    font-size: x-large;
 }
 .erdekessegek_arkadok_szoveg, .erdekessegek_arkadok_szoveg h1{
     margin-bottom: 20px;   
     margin-top: 20px; 
 }
 .erdekessegek_arkadok_szoveg{
-    line-height: 30px;
-    font-size: large;
+    line-height: 25px;
+    font-size:large;
+    padding-left: 2%;
+}
+.erdekessegek_arkadok_szoveg p{
+    font-size:x-large;
 }
 .erdekessegek_arkadok_kerites{
     background-color: rgba(231,231,231,0.8);
-    height: 585px;
-    width: 60%;
+    height: 620px;
+    width: 80%;
     border-radius: 5%;
     padding-top: 20px;
     margin-left: auto;
