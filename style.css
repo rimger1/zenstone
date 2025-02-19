@@ -265,7 +265,7 @@ hr{
 }
 .etlap_kerites{
     background-color: rgba(231,231,231,0.8);
-    width: 60%;
+    width: 80%;
     border-radius: 40px;
     padding: 20px;
     margin-left: auto;
@@ -273,11 +273,21 @@ hr{
 }
 .etlap_etelek{
     background-color: white;    
-    display: flex;
+    display: grid;
     border-radius: 20px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+.etlap_etelek_szoveg{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    font-size: large;
 }
 
 /*foglalas:*/
