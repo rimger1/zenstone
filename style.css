@@ -306,16 +306,17 @@ hr{
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(28, 5vw);
+    height: 100%;
     grid-gap: 15px;
 }
 .etlap_etelek_szoveg{
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 20px;
-    font-size: large;
+    line-height: 30px;
+    font-size: 23px;
 }
 
 /*foglalas:*/
