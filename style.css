@@ -76,10 +76,12 @@ hr{
 }
 .lablec_facebook_kep a img{
     width: 50%;
-    float: right;   
+    float: right;  
+    border-radius: 100px; 
 }
 .lablec_instagram_kep a img{
     width: 50%;
+    border-radius: 100px; 
 }
 
 /*fooldal:*/
@@ -258,7 +260,7 @@ hr{
 .robot_kep , .robot_kep img{
     margin: 2%;
     border-radius: 35px; 
-    margin-left: 5%;   
+    margin-left: 6%;   
     
 }
 .robot_kep img{
@@ -294,11 +296,11 @@ hr{
 .erdekessegek_arkadok_szoveg{
     line-height: 35px;
     font-size:large;
-    padding-left: 2%;
+    padding-left: 6%;
 }
 .erdekessegek_arkadok_szoveg p{
     font-size:x-large;
-    width: 85%;
+    width: 90%;
     margin-top: 10px;
 }
 .erdekessegek_arkadok_kerites{
@@ -325,7 +327,7 @@ hr{
 .erdekessegek_arkadok_kep ,.erdekessegek_arkadok_kep img{
     margin: 2%;
     border-radius: 35px;
-    height: 96%;
+    height: 95%;
 }
 
 /*etlap:*/
