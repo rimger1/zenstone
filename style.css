@@ -11,6 +11,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: +1;
 }
 .fejlec_navigacio_szoveg p a{
     text-decoration: none;
@@ -328,7 +330,7 @@ hr{
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(28, 5vw);
+    grid-template-rows: repeat(28, 7vw);
     height: 100%;
     grid-gap: 15px;
 }
@@ -338,6 +340,32 @@ hr{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 30px;
     font-size: 23px;
+}
+.etlap_etelek_shushi{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0 auto;
+    width: 190px;
+}
+.etlap_etelek_shushi img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+.etlap_etelek_ramen{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin: 0 auto;
+    width: 190px;
+}
+.etlap_etelek_ramen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
 }
 
 /*foglalas:*/
