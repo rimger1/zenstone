@@ -213,7 +213,7 @@ hr{
 }
 .robot_kep , .robot_kep img{
     margin: 2%;
-    border-radius: 5%; 
+    border-radius: 35px; 
     margin-left: 5%;   
     
 }
@@ -221,7 +221,7 @@ hr{
     width: 90%;
 }
 .robot_szoveg{
-    line-height: 25px;
+    line-height: 35px;
     font-size: large;
     padding-left: 2%;
     width: 50%;
@@ -230,6 +230,7 @@ hr{
     margin-bottom: 20px;
     margin-top: 20px;
     padding-right: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     
 }
 .robot_szoveg h1{
@@ -238,28 +239,34 @@ hr{
 .robot_szoveg p{
     text-align: left;
     font-size: x-large;
+    margin-left: 8%;
+    margin-top: 10px;
 }
 .erdekessegek_arkadok_szoveg, .erdekessegek_arkadok_szoveg h1{
     margin-bottom: 20px;   
     margin-top: 20px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .erdekessegek_arkadok_szoveg{
-    line-height: 25px;
+    line-height: 35px;
     font-size:large;
     padding-left: 2%;
 }
 .erdekessegek_arkadok_szoveg p{
     font-size:x-large;
+    width: 85%;
+    margin-top: 10px;
 }
 .erdekessegek_arkadok_kerites{
     background-color: rgba(231,231,231,0.8);
-    height: 620px;
+    height: 550px;
     width: 80%;
     border-radius: 5%;
-    padding-top: 20px;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    padding: 20px;
 }
 .erdekessegek_arkadok_kerites .erdekessegek_arkadok{
     background-color: white;
@@ -269,12 +276,12 @@ hr{
 }
 .erdekessegek_arkadok{
     padding: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
+    height: 470px;
 }
 .erdekessegek_arkadok_kep ,.erdekessegek_arkadok_kep img{
     margin: 2%;
-    border-radius: 5%;
+    border-radius: 35px;
+    height: 96%;
 }
 
 /*etlap:*/
