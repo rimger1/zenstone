@@ -529,6 +529,7 @@ hr{
     margin-right: auto;
     margin-top: 60px;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .kiszallitas .kiszallitinside{
     background-color: white;
@@ -540,8 +541,29 @@ hr{
 .kiszallitas_cim{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 .kiszallitas_szuksegesopc{
     display: flex;
-    gap: 5%;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.kiszallitas_szukseges{
+    margin-left: 30%;
+    
+    
+}
+.kiszallitas_opc{
+    margin-right: 30%;
+}
+.kiszkep1 {
+    display: flex;
+    justify-content: center;
+}
+.kiszkep2 {
+    display: flex;
+    justify-content: center;
 }
