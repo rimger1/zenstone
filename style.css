@@ -415,6 +415,7 @@ hr{
 }
 .etlap_etelek_miso img{
     width: 100%;
+    border-radius: 40px;
 }
 .etlap_etelek_miso{
     grid-column-start: 2;
@@ -422,8 +423,14 @@ hr{
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.etlap_etelek_miso_szoveg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
 .etlap_etelek_ramen img{
     width: 100%;
+    border-radius: 40px;
 }
 .etlap_etelek_ramen{
     grid-column-start: 5;
@@ -431,14 +438,25 @@ hr{
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.etlap_etelek_ramen_szoveg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
 .etlap_etelek_udon img{
     width: 100%;
+    border-radius: 40px;
 }
 .etlap_etelek_udon{
     grid-column-start: 8;
     grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+.etlap_etelek_udon_szoveg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
 }
 
 /*foglalas:*/
