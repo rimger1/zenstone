@@ -13,6 +13,7 @@
     justify-content: space-between;
     position: fixed;
     z-index: +1;
+    /*border: 1px,black,solid;*/
     
 }
 .fejlec_navigacio_szoveg p a{
@@ -339,7 +340,7 @@ hr{
     background-color: rgba(231,231,231,0.8);
     height: 550px;
     width: 80%;
-    border-radius: 5%;
+    border-radius: 40px;
     
     margin-left: auto;
     margin-right: auto;
@@ -350,7 +351,7 @@ hr{
     background-color: white;
     display: flex;
     opacity: 1;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .erdekessegek_arkadok{
     padding: 4%;
@@ -464,16 +465,18 @@ hr{
 
 .fotartalomfog{
     background-image: url(iktkepek/hullamok.png);
+    padding-bottom: 50px;
+
 }
 .kiszallitas{
     background-color: rgba(231,231,231,0.8);
-    height: 550px;
+    height: 650px;
     width: 80%;
-    border-radius: 5%;
+    border-radius: 40px;
     
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -482,7 +485,8 @@ hr{
     display: flex;
     flex-direction: column;
     opacity: 1;
-    border-radius: 5%;
+    border-radius: 20px;
+    height: 100%;
 }
 
 .kiszallitas_cim{
@@ -555,4 +559,47 @@ hr{
     background-color:  rgba(231,231,231,0.8);
     padding: 10px;
     border-radius: 30px;
+}
+.tartalom_foglalas_gomb{
+    margin-top: 35px;
+    
+}
+.foglalas_kerites2{
+    background-color: rgba(231,231,231,0.8);
+    height: 280px;
+    width: 80%;
+    border-radius: 40px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foglalas_kerites2 .foglalas_inside2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    border-radius: 20px;
+    height: 100%;
+}
+.foglalas_cim{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.foglalas_telsz{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    display: flex;
+    align-items: center;
+    gap:5%;
+    
+}
+.foglalas_telsz p{
+    width:200px;
+    font-size: x-large;
 }
