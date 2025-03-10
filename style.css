@@ -355,10 +355,6 @@ hr{
 }
 
 /*etlap:*/
-.etlap_cimek{
-    color: black;
-    font-weight: bolder;
-}
 .etlap{
     position: relative;
 }
@@ -382,73 +378,38 @@ hr{
 }
 .etlap_etelek{
     background-color: white;    
-    display: grid;
     border-radius: 20px;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    /*
+    display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 7vw);
     height: 100%;
     grid-gap: 5px;
+    */
 }
-.etlap_etelek_szoveg{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 30px;
-    font-size: 23px;
-}
-.etlap_etelek_kategoria{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.etlap_elem{
+    width: fit-content;
     text-align: center;
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 1;
 }
-.etlap_etelek_miso img{
-    width: 100%;
-    border-radius: 40px;
+.kep_etel{
+    border-radius: 30px;
 }
-.etlap_etelek_miso{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.etlap_etelek_miso_szoveg{
+.kep_cim{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
 }
-.etlap_etelek_ramen img{
-    width: 100%;
-    border-radius: 40px;
-}
-.etlap_etelek_ramen{
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.etlap_etelek_ramen_szoveg{
+.kep_ar{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: x-large;
+    font-size: larger;
 }
-.etlap_etelek_udon img{
-    width: 100%;
-    border-radius: 40px;
-}
-.etlap_etelek_udon{
-    grid-column-start: 8;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.etlap_etelek_udon_szoveg{
+.kep_leiras{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: x-large;
+    color: gray;
 }
 
 /*foglalas:*/
@@ -544,6 +505,9 @@ hr{
 }
 .tartalom_foglalas_gomb{
     margin-top: 35px;
+}
+.foglalas_gomb{
+    border: 0px solid black;
 }
 .foglalas_kerites2{
     background-color: rgba(231,231,231,0.8);
