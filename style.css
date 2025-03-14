@@ -440,6 +440,7 @@ hr{
 /*etlap:*/
 .etlap{
     position: relative;
+    padding-bottom: 100px;
 }
 .etlap:before {
     z-index: -1;
