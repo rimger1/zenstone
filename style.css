@@ -237,15 +237,19 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 8%;
 }
 .fooldal_celok_rolunk_kep{
-    width: 200px;
+    width: 250px;
+    padding-top: 5%;
 }
 .fooldal_celok_rolunk_kep img{
     width: 100%;
 }
 .fooldal_celok_rolunk_cim{
     color: #FF94BB;
+    padding-top: 8%; 
+    padding-bottom: 4%; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .fooldal_celok_rolunk_szoveg{
@@ -255,23 +259,63 @@ hr{
     max-width: 600px;
 
 }
+/*
+.fooldal_celok_celunk{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+}
+.fooldal_celok_celunk_kep{
+    width: 250px;
+    padding-top: 5%;
+}
+.fooldal_celok_celunk_kep img{
+    width: 100%;
+}
 .fooldal_celok_celunk_cim{
     color: #4DC934;
+    padding-top: 8%; 
+    padding-bottom: 4%; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.fooldal_celok_celunk_szoveg{
+.fooldal_celok_ecelunk_szoveg{
     font-size: x-large;
     line-height: 35px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 600px;
+
+}
+
+*/
+
+
+
+.fooldal_celok_ettortenelem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+}
+.fooldal_celok_ettortenelem_kep{
+    width: 250px;
+    padding-top: 5%;
+}
+.fooldal_celok_ettortenelem_kep img{
+    width: 100%;
 }
 .fooldal_celok_ettortenelem_cim{
     color: #EF0000;
+    padding-top: 8%; 
+    padding-bottom: 4%; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .fooldal_celok_ettortenelem_szoveg{
     font-size: x-large;
     line-height: 35px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 600px;
+
 }
 /*.tartalom{
     background-image: url(iktkepek/tigers.png);
