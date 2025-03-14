@@ -13,7 +13,6 @@
     justify-content: space-between;
     position: fixed;
     z-index: +1;
-    box-shadow: black 30px 30px;
     /*border: 1px,black,solid;*/
 }
 .fejlec_navigacio_szoveg p a{
@@ -422,21 +421,20 @@ hr{
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    /*
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 7vw);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 420px);
     height: 100%;
     grid-gap: 5px;
-    */
+    text-align: center;
 }
 .etlap_elem{
-    width: 278px;
+    width: 100%;
     text-align: center;
 }
 .kep_etel{
     border-radius: 30px;
-    width: 278px;
+    width: 80%;
 }
 .kep_cim{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
