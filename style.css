@@ -258,12 +258,13 @@ hr{
     max-width: 600px;
 
 }
-/*
 .fooldal_celok_celunk{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 8%;
+    background-image: url(iktkepek/newdragons.png);
+    background-size: cover;
 }
 .fooldal_celok_celunk_kep{
     width: 250px;
@@ -278,17 +279,12 @@ hr{
     padding-bottom: 4%; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.fooldal_celok_ecelunk_szoveg{
+.fooldal_celok_celunk_szoveg{
     font-size: x-large;
     line-height: 35px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 600px;
-
 }
-
-*/
-
-
 
 .fooldal_celok_ettortenelem{
     display: flex;
