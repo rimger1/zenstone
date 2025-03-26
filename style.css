@@ -655,3 +655,21 @@ hr{
     width:200px;
     font-size: x-large;
 }
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1189px){
+
+}
+@media only screen and (min-width: 762px) and (max-width: 992px){
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+    
+}
