@@ -577,7 +577,9 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content:center;
+    
     gap: 60px;
+    width: 100%;
 }
 .kiszallita_szovegek{
     display: flex;
@@ -585,6 +587,19 @@ hr{
     gap: 40px;
     line-height: 30px;
     font-size: 23px;
+    justify-content:center;
+    
+}
+.kiszallita_szovegek2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    line-height: 30px;
+    font-size: 23px;
+    
+}
+.kiszallita_szovegek2 label{
+    width: 40%;
 }
 .kiszallita_textboxokfr{
     display: flex;
@@ -612,6 +627,10 @@ hr{
     background-color:  rgba(231,231,231,0.8);
     padding: 10px;
     border-radius: 30px;
+    
+}
+.fullkiszallita{
+    width:100%;
 }
 .tartalom_foglalas_gomb{
     margin-top: 35px;
