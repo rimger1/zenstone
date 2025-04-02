@@ -679,17 +679,33 @@ hr{
 
 
 
+@media only screen and (min-width: 1189px){
 
-
+}
 @media only screen and (min-width: 992px) and (max-width: 1189px){
-
+/* etlap */
+    .etlap_etelek{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 370px);
+        height: 100%;
+        grid-gap: 5px;
+    }
+    
 }
 @media only screen and (min-width: 762px) and (max-width: 992px){
-    
+/*etlap*/
+    .etlap_etelek{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 420px);
+        height: 100%;
+        grid-gap: 5px;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px){
-    
+
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
-    
+
 }
