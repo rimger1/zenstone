@@ -809,12 +809,10 @@ hr{
 
 }
 
-@media only screen and (min-width: 762px) and (max-width: 992px){
+@media only screen and (min-width: 815px) and (max-width: 992px){
     
 }
-@media only screen and (min-width: 576px) and (max-width: 768px){
 
-/*Kiszallitas reeszponziv*/}
 @media only screen and (min-width: 576px) and (max-width: 815px){
 
 
@@ -832,8 +830,12 @@ hr{
     }
     .kiszallitas{
         
-        height: 850px;
+        height: 840px;
        
+    }
+
+    .foglalas_inside2{
+        text-align: center;
     }
 
 }
@@ -854,7 +856,7 @@ hr{
     }
     .kiszallitas{
         
-        height: 880px;
+        height: 860px;
        
     }
     .kiszallitas_szuksegesopc{
@@ -871,10 +873,34 @@ hr{
     .kiszallita_szovegek2 label{
         width: 50%;
     }
+
+    .foglalas_inside2,.foglalas_inside2 p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .foglalas_inside2 h1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .foglalas_telsz{
+        flex-direction: column;
+    }
     
 
 }
+@media only screen and (min-width: 350px) and (max-width: 450px){
 
+    .foglalas_inside2,.foglalas_inside2 p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .foglalas_telsz{
+        flex-direction: column;
+    }
+    .foglalas_kerites2{
+        height: 300px;
+    }
+}
 
 
 
