@@ -688,97 +688,85 @@ hr{
     .fooldal_celok_rolunk{
         display: flex;
         align-items: center;
-        padding-bottom: 8%;
-        padding-top: 4%;
         flex-direction: column;
     }
     .fooldal_celok_rolunk_kep{
-        width: 250px;
-        padding-top: 5%;
-    }
-    .fooldal_celok_rolunk_kep img{
-        width: 100%;
-    }
-    .fooldal_celok_rolunk_cim{
-        color: #FF94BB;
-        text-align: center;
-        padding-top: 8%; 
-        padding-bottom: 4%; 
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 230px;
     }
     .fooldal_celok_rolunk_szoveg{
-        font-size: x-large;
-        line-height: 35px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        max-width: 700px;
         text-align: center;
-    
     }
     .fooldal_celok_celunk{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding-bottom: 8%;
-        padding-top: 5%;
-        background-image: url(iktkepek/celunkhatter.png);
-        background-size: cover;
+        flex-direction: column;
     }
     .fooldal_celok_celunk_kep{
-        width: 250px;
-        padding-top: 5%;
-    }
-    .fooldal_celok_celunk_kep img{
-        width: 100%;
-    }
-    .fooldal_celok_celunk_cim{
-        color: #4DC934;
-        padding-top: 8%; 
-        padding-bottom: 4%; 
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 230px;
     }
     .fooldal_celok_celunk_szoveg{
-        font-size: x-large;
-        line-height: 35px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        max-width: 600px;
+        text-align: center;
     }
     
     .fooldal_celok_ettortenelem{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding-bottom: 8%;
-        padding-top: 4%;
+        flex-direction: column;
     }
     .fooldal_celok_ettortenelem_kep{
-        width: 250px;
+        width: 230px;
         padding-top: 5%;
-    }
-    .fooldal_celok_ettortenelem_kep img{
-        width: 100%;
-    }
-    .fooldal_celok_ettortenelem_cim{
-        color: #EF0000;
-        padding-top: 8%; 
-        padding-bottom: 4%; 
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+    }    
     .fooldal_celok_ettortenelem_szoveg{
-        font-size: x-large;
-        line-height: 35px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        max-width: 600px;
+        text-align: center;
     }  
 }
-@media only screen and (min-width: 762px) and (max-width: 850px){
+@media only screen and (min-width: 350px) and (max-width: 850px){
+    .fooldal_celok_rolunk{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fooldal_celok_rolunk_kep{
+        width: 210px;
+    }
+    .fooldal_celok_rolunk_szoveg{
+        text-align: center;
+        max-width: 750px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px){
-
-}
-@media only screen and (min-width: 350px) and (max-width: 576px){
-
+    .fooldal_celok_celunk{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fooldal_celok_celunk_kep{
+        width: 210px;
+    }
+    .fooldal_celok_celunk_szoveg{
+        text-align: center;
+        max-width: 750px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .fooldal_celok_ettortenelem{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fooldal_celok_ettortenelem_kep{
+        width: 210px;
+        padding-top: 5%;
+    }    
+    .fooldal_celok_ettortenelem_szoveg{
+        text-align: center;
+        max-width: 750px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }  
 }
 
 
@@ -821,12 +809,13 @@ hr{
 
 }
 
-@media only screen and (min-width: 762px) and (max-width: 992px){
+@media only screen and (min-width: 815px) and (max-width: 992px){
     
 }
-@media only screen and (min-width: 576px) and (max-width: 768px){
 
-/*Kiszallitas reeszponziv*/
+@media only screen and (min-width: 576px) and (max-width: 815px){
+
+
     .kiszallita_szovegek2{
         display: flex;
         flex-direction: column;
@@ -841,14 +830,18 @@ hr{
     }
     .kiszallitas{
         
-        height: 850px;
+        height: 840px;
        
+    }
+
+    .foglalas_inside2{
+        text-align: center;
     }
 
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
-/*Kiszallitas reeszponziv*/
+
     .kiszallita_szovegek2{
         display: flex;
         flex-direction: column;
@@ -863,7 +856,7 @@ hr{
     }
     .kiszallitas{
         
-        height: 880px;
+        height: 860px;
        
     }
     .kiszallitas_szuksegesopc{
@@ -880,10 +873,34 @@ hr{
     .kiszallita_szovegek2 label{
         width: 50%;
     }
+
+    .foglalas_inside2,.foglalas_inside2 p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .foglalas_inside2 h1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .foglalas_telsz{
+        flex-direction: column;
+    }
     
 
 }
+@media only screen and (min-width: 350px) and (max-width: 450px){
 
+    .foglalas_inside2,.foglalas_inside2 p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .foglalas_telsz{
+        flex-direction: column;
+    }
+    .foglalas_kerites2{
+        height: 300px;
+    }
+}
 
 
 
