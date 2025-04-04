@@ -529,7 +529,7 @@ hr{
 }
 .kiszallitas{
     background-color: rgba(231,231,231,0.8);
-    height: 650px;
+    height: 730px;
     width: 80%;
     border-radius: 40px;
     margin-left: auto;
@@ -692,6 +692,7 @@ hr{
     }
     
 }
+
 @media only screen and (min-width: 762px) and (max-width: 992px){
     .fooldal_celok_rolunk{
         display: flex;
@@ -779,7 +780,60 @@ hr{
 }
 @media only screen and (min-width: 576px) and (max-width: 768px){
 
+/*Kiszallitas reeszponziv*/
+    .kiszallita_szovegek2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 10px;
+        font-size: 18px;
+        
+    }
+    .kiszallitas_cim{
+        font-size: 13px;
+        text-align: center;
+    }
+    .kiszallitas{
+        
+        height: 850px;
+       
+    }
+
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
+
+/*Kiszallitas reeszponziv*/
+    .kiszallita_szovegek2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 10px;
+        font-size: 18px;
+        
+    }
+    .kiszallitas_cim{
+        font-size: 10px;
+        text-align: center;
+    }
+    .kiszallitas{
+        
+        height: 880px;
+       
+    }
+    .kiszallitas_szuksegesopc{
+        
+        gap: 15px;
+    }
+    .kiszallitas_szukseges{
+        margin-left: 20%;
+        
+    }
+    .kiszallitas_opc{
+        margin-right: 20%;
+    }
+    .kiszallita_szovegek2 label{
+        width: 50%;
+    }
+    
 
 }
