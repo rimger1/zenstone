@@ -823,9 +823,11 @@ hr{
         max-width: 600px;
     }  
 }
-@media only screen and (min-width: 576px) and (max-width: 768px){
 
 /*Kiszallitas reeszponziv*/
+@media only screen and (min-width: 576px) and (max-width: 815px){
+
+
     .kiszallita_szovegek2{
         display: flex;
         flex-direction: column;
@@ -847,7 +849,7 @@ hr{
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
-/*Kiszallitas reeszponziv*/
+
     .kiszallita_szovegek2{
         display: flex;
         flex-direction: column;
