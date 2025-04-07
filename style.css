@@ -900,6 +900,17 @@ hr{
     .foglalas_kerites2{
         height: 300px;
     }
+    .tartalom_foglalas_gomb {
+       
+        
+        
+    }
+    .foglalas_gomb{
+        width: 250px;
+        
+        
+       
+    }
 }
 
 
@@ -934,6 +945,38 @@ hr{
         grid-template-rows: repeat(9, 12%);
         grid-gap: 5px;
     }
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+
+}
+
+/*szevasztok itt a lablec*/
+@media only screen and (min-width: 1189px){
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1189px){
+
+}
+
+@media only screen and (min-width: 762px) and (max-width: 992px){
+    
+}
+@media only screen and (min-width: 762px) and (max-width: 850px){
+            .lablec_facebook_kep {
+                margin-left:10%;
+                
+            }
+            .lablec_szoveg{
+                margin-right:10%;
+                width: 150%;
+            }
+            .lablec_szoveg{
+                font-size: small;
+            }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
