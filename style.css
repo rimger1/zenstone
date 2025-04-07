@@ -688,7 +688,7 @@ hr{
     .fooldal_celok_rolunk{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
         width: 230px;
@@ -707,11 +707,10 @@ hr{
     .fooldal_celok_celunk_szoveg{
         text-align: center;
     }
-    
     .fooldal_celok_ettortenelem{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
         width: 230px;
@@ -725,7 +724,7 @@ hr{
     .fooldal_celok_rolunk{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
         width: 210px;
@@ -755,11 +754,11 @@ hr{
     .fooldal_celok_ettortenelem{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
         width: 210px;
-        padding-top: 5%;
+        padding-top: 3%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
         text-align: center;
