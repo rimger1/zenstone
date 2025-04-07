@@ -768,8 +768,46 @@ hr{
     }  
 }
 
+/*Fejléc*/
+@media only screen and (min-width: 850px) and (max-width: 985px){
+    .fejlec{
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fejlec_navigacio_szoveg{
+        width: 514px;
+        padding: 0;
+    }
+    .fejlec_navigacio_szoveg p{
+        margin: 0 auto;
+        width: 514px;
+    }
+    .fejlec_navigacio{
+        width: 514px;
+        margin: 0 auto;
+    }
+    .zenstone{
+        width: 350px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .zenstone a img{
+        width: 100%;
+        padding: 0;
+        padding-right: 7px;
+    }
+}
+@media only screen and (min-width: 762px) and (max-width: 850px){
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
 
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
 
+}
 
 
 
