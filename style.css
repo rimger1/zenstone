@@ -691,7 +691,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
-        width: 230px;
+        width: 200px;
     }
     .fooldal_celok_rolunk_szoveg{
         text-align: center;
@@ -702,7 +702,7 @@ hr{
         flex-direction: column;
     }
     .fooldal_celok_celunk_kep{
-        width: 230px;
+        width: 200px;
     }
     .fooldal_celok_celunk_szoveg{
         text-align: center;
@@ -713,7 +713,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
-        width: 230px;
+        width: 200px;
         padding-top: 5%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
@@ -727,7 +727,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
-        width: 210px;
+        width: 185px;
     }
     .fooldal_celok_rolunk_szoveg{
         text-align: center;
@@ -742,7 +742,7 @@ hr{
         flex-direction: column;
     }
     .fooldal_celok_celunk_kep{
-        width: 210px;
+        width: 185px;
     }
     .fooldal_celok_celunk_szoveg{
         text-align: center;
@@ -757,7 +757,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
-        width: 210px;
+        width: 185px;
         padding-top: 3%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
@@ -771,25 +771,26 @@ hr{
 /*Fejléc*/
 @media only screen and (min-width: 850px) and (max-width: 985px){
     .fejlec{
-        height: 170px;
+        height: 130px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .fejlec_navigacio_szoveg{
-        width: 514px;
+        width: 524px;
         padding: 0;
     }
     .fejlec_navigacio_szoveg p{
         margin: 0 auto;
-        width: 514px;
+        font-size: medium;
+        width: 524px;
     }
     .fejlec_navigacio{
-        width: 514px;
+        width: 524px;
         margin: 0 auto;
     }
     .zenstone{
-        width: 350px;
+        width: 290px;
         margin: 0 auto;
         padding: 0;
     }
