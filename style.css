@@ -688,7 +688,7 @@ hr{
     .fooldal_celok_rolunk{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
         width: 230px;
@@ -707,11 +707,10 @@ hr{
     .fooldal_celok_celunk_szoveg{
         text-align: center;
     }
-    
     .fooldal_celok_ettortenelem{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
         width: 230px;
@@ -725,7 +724,7 @@ hr{
     .fooldal_celok_rolunk{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
         width: 210px;
@@ -755,11 +754,11 @@ hr{
     .fooldal_celok_ettortenelem{
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
         width: 210px;
-        padding-top: 5%;
+        padding-top: 3%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
         text-align: center;
@@ -769,8 +768,46 @@ hr{
     }  
 }
 
+/*Fejléc*/
+@media only screen and (min-width: 850px) and (max-width: 985px){
+    .fejlec{
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fejlec_navigacio_szoveg{
+        width: 514px;
+        padding: 0;
+    }
+    .fejlec_navigacio_szoveg p{
+        margin: 0 auto;
+        width: 514px;
+    }
+    .fejlec_navigacio{
+        width: 514px;
+        margin: 0 auto;
+    }
+    .zenstone{
+        width: 350px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .zenstone a img{
+        width: 100%;
+        padding: 0;
+        padding-right: 7px;
+    }
+}
+@media only screen and (min-width: 762px) and (max-width: 850px){
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
 
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
 
+}
 
 
 
@@ -900,6 +937,17 @@ hr{
     .foglalas_kerites2{
         height: 300px;
     }
+    .tartalom_foglalas_gomb {
+       
+        
+        
+    }
+    .foglalas_gomb{
+        width: 250px;
+        
+        
+       
+    }
 }
 
 
@@ -942,6 +990,38 @@ hr{
         width: 50%;
         margin-bottom: 3%;
     }
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+
+}
+
+/*szevasztok itt a lablec*/
+@media only screen and (min-width: 1189px){
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1189px){
+
+}
+
+@media only screen and (min-width: 762px) and (max-width: 992px){
+    
+}
+@media only screen and (min-width: 762px) and (max-width: 850px){
+            .lablec_facebook_kep {
+                margin-left:10%;
+                
+            }
+            .lablec_szoveg{
+                margin-right:10%;
+                width: 150%;
+            }
+            .lablec_szoveg{
+                font-size: small;
+            }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
