@@ -674,9 +674,27 @@ hr{
     width:200px;
     font-size: x-large;
 }
+/*főoldal teteje*/
+@media only screen and (min-width: 1189px){
+
+}
+@media only screen and (min-width: 993px) and (max-width: 1189px){
+
+}
+
+@media only screen and (min-width: 763px) and (max-width: 992px){
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 762px){
+
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+    
+}
 
 
-/*foooldal*/
+/*foooldal rólunk*/
 @media only screen and (min-width: 1189px){
 
 }
