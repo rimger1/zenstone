@@ -993,7 +993,15 @@ hr{
     }
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
-
+    .etlap_etelek{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .etlap_elem{
+        width: 100%;
+        margin-bottom: 3%;
+    }
 }
 
 /*szevasztok itt a lablec*/
