@@ -676,9 +676,27 @@ hr{
     width:200px;
     font-size: x-large;
 }
+/*főoldal teteje*/
+@media only screen and (min-width: 1189px){
+
+}
+@media only screen and (min-width: 993px) and (max-width: 1189px){
+
+}
+
+@media only screen and (min-width: 763px) and (max-width: 992px){
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 762px){
+
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+    
+}
 
 
-/*foooldal*/
+/*foooldal rólunk*/
 @media only screen and (min-width: 1189px){
 
 }
@@ -1111,7 +1129,7 @@ hr{
 }
 @media only screen and (min-width: 762px) and (max-width: 850px){
             .lablec_facebook_kep {
-                margin-left:15%;
+                margin-left:20%;
                 height: 20px;
                 margin-top: 10px;
                 width: 10%;
@@ -1155,7 +1173,7 @@ hr{
 
 @media only screen and (min-width: 576px) and (max-width: 768px){
     .lablec_facebook_kep {
-        margin-left:15%;
+        margin-left:20%;
         height: 20px;
         margin-top: 10px;
         width: 5%;
@@ -1182,7 +1200,8 @@ hr{
         
     }
     .lablec_szoveg{
-        font-size: small;margin-right:30%;
+        font-size: small;
+        margin-right:30%;
         
     }
     .lablec_sor{
@@ -1221,7 +1240,7 @@ hr{
     }
     .lablec_szoveg_formazas{
         margin-right:30%;
-        width: 100%;
+        width: 150%;
         line-height: 25px;
         
     }
