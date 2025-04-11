@@ -692,7 +692,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
-        width: 230px;
+        width: 200px;
     }
     .fooldal_celok_rolunk_szoveg{
         text-align: center;
@@ -703,7 +703,7 @@ hr{
         flex-direction: column;
     }
     .fooldal_celok_celunk_kep{
-        width: 230px;
+        width: 200px;
     }
     .fooldal_celok_celunk_szoveg{
         text-align: center;
@@ -714,7 +714,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
-        width: 230px;
+        width: 200px;
         padding-top: 5%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
@@ -728,7 +728,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_rolunk_kep{
-        width: 210px;
+        width: 185px;
     }
     .fooldal_celok_rolunk_szoveg{
         text-align: center;
@@ -743,7 +743,7 @@ hr{
         flex-direction: column;
     }
     .fooldal_celok_celunk_kep{
-        width: 210px;
+        width: 185px;
     }
     .fooldal_celok_celunk_szoveg{
         text-align: center;
@@ -758,7 +758,7 @@ hr{
         flex-direction: column-reverse;
     }
     .fooldal_celok_ettortenelem_kep{
-        width: 210px;
+        width: 185px;
         padding-top: 3%;
     }    
     .fooldal_celok_ettortenelem_szoveg{
@@ -772,25 +772,26 @@ hr{
 /*Fejléc*/
 @media only screen and (min-width: 850px) and (max-width: 985px){
     .fejlec{
-        height: 170px;
+        height: 130px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .fejlec_navigacio_szoveg{
-        width: 514px;
+        width: 524px;
         padding: 0;
     }
     .fejlec_navigacio_szoveg p{
         margin: 0 auto;
-        width: 514px;
+        font-size: medium;
+        width: 524px;
     }
     .fejlec_navigacio{
-        width: 514px;
+        width: 524px;
         margin: 0 auto;
     }
     .zenstone{
-        width: 350px;
+        width: 290px;
         margin: 0 auto;
         padding: 0;
     }
@@ -957,35 +958,51 @@ hr{
 @media only screen and (min-width: 1189px){
 
 }
-@media only screen and (min-width: 992px) and (max-width: 1189px){
+@media only screen and (min-width: 993px) and (max-width: 1189px){
     .etlap_etelek{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(9, 18%);
-        height: 100%;
-        grid-gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .etlap_elem{
+        width: 33%;
+        margin-bottom: 3%;
     }
 }
 
-@media only screen and (min-width: 762px) and (max-width: 992px){
+@media only screen and (min-width: 763px) and (max-width: 992px){
     .etlap_etelek{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(9, 12%);
-        grid-gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .etlap_elem{
+        width: 50%;
+        margin-bottom: 3%;
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px){
+@media only screen and (min-width: 576px) and (max-width: 762px){
     .etlap_etelek{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(9, 12%);
-        grid-gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .etlap_elem{
+        width: 50%;
+        margin-bottom: 3%;
     }
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
-
+    .etlap_etelek{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .etlap_elem{
+        width: 100%;
+        margin-bottom: 3%;
+    }
 }
 
 /*szevasztok itt a lablec*/
