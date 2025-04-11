@@ -526,6 +526,7 @@ hr{
 .fotartalomfog{
     background-image: url(iktkepek/hullamok.png);
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 .kiszallitas{
     background-color: rgba(231,231,231,0.8);
@@ -1020,12 +1021,12 @@ hr{
                 margin-left:15%;
                 height: 20px;
                 margin-top: 10px;
-                width: 5%;
+                width: 10%;
             }
             .lablec_instagram_kep {
                 height: 20px;
                 margin-top: 10px;
-                width: 5%;
+                width: 10%;
                 
             }
             .lablec_facebook_kep a img{
@@ -1040,6 +1041,7 @@ hr{
             .lablec_szoveg_formazas{
                 margin-right:30%;
                 width: 100%;
+                line-height: 30px;
                 
             }
             .lablec_szoveg{
@@ -1059,33 +1061,89 @@ hr{
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px){
-     .lablec_facebook_kep {
+    .lablec_facebook_kep {
         margin-left:15%;
         height: 20px;
         margin-top: 10px;
-        width: 20%;
+        width: 5%;
     }
     .lablec_instagram_kep {
         height: 20px;
         margin-top: 10px;
-        width: 25%;
+        width: 5%;
         
     }
-    .lablec_szoveg_formazas{
-        margin-right:20%;
-        padding-right: 20px;
+    .lablec_facebook_kep a img{
+        
+        width: 140%;
+    }
+    .lablec_instagram_kep a img{
+       
         width: 150%;
         
     }
+    .lablec_szoveg_formazas{
+        margin-right:30%;
+        width: 100%;
+        line-height: 30px;
+        
+    }
     .lablec_szoveg{
-        font-size: small;
+        font-size: small;margin-right:30%;
+        
     }
     .lablec_sor{
-        display: flex;
         
-        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .lablec{
+        
     }
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
+    .lablec_facebook_kep {
+        margin-left:25%;
+        height: 20px;
+        margin-top: 10px;
+        width: 15%;
+    }
+    .lablec_instagram_kep {
+        height: 20px;
+        margin-top: 10px;
+        width: 15%;
+        
+    }
+    .lablec_facebook_kep a img{
+        
+        width: 160%;
+    }
+    .lablec_instagram_kep a img{
+       
+        width: 170%;
+        
+    }
+    .lablec_szoveg_formazas{
+        margin-right:30%;
+        width: 100%;
+        line-height: 25px;
+        
+    }
+    .lablec_szoveg{
+        font-size: small;margin-right:30%;
+        
+    }
+    .lablec_sor{
+        
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .lablec{
+        
+    }
 }
