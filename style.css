@@ -771,7 +771,7 @@ hr{
 /*Fejléc*/
 @media only screen and (min-width: 850px) and (max-width: 985px){
     .fejlec{
-        height: 130px;
+        height: 120px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -790,7 +790,7 @@ hr{
         margin: 0 auto;
     }
     .zenstone{
-        width: 290px;
+        width: 280px;
         margin: 0 auto;
         padding: 0;
     }
