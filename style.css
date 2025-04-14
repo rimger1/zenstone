@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+/*nav 5*/
+.checkbtn {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.fejlec_navigacio {
+    display: none;
+}
+#check:checked ~ .fejlec_navigacio {
+    display: block;
+}
+
 
 /*Fejléc:*/
 .fejlec{
@@ -676,6 +689,10 @@ hr{
     width:200px;
     font-size: x-large;
 }
+
+
+
+
 /*főoldal teteje*/
 @media only screen and (min-width: 1189px){
 
@@ -1065,6 +1082,15 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
 /*etlap*/
 @media only screen and (min-width: 1189px){
 
@@ -1115,6 +1141,13 @@ hr{
         margin-bottom: 3%;
     }
 }
+
+
+
+
+
+
+
 
 /*szevasztok itt a lablec*/
 @media only screen and (min-width: 1189px){
@@ -1259,3 +1292,25 @@ hr{
         
     }
 }
+
+
+/*hamburgermenu*/
+@media only screen and (min-width: 1189px){
+    
+}
+@media only screen and (min-width: 993px) and (max-width: 1189px){
+
+}
+
+@media only screen and (min-width: 763px) and (max-width: 992px){
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 762px){
+
+}
+@media only screen and (min-width: 350px) and (max-width: 576px){
+    
+}
+
+
