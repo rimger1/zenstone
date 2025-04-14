@@ -1032,8 +1032,11 @@ hr{
 }
 
 @media only screen and (min-width: 762px) and (max-width: 992px){
-    
+    .lablec hr{
+        width: 90%;
+    }
 }
+
 @media only screen and (min-width: 762px) and (max-width: 850px){
             .lablec_facebook_kep {
                 margin-left:20%;
@@ -1073,8 +1076,8 @@ hr{
                 margin-right: 20%;
                 margin-left: 20%;
             }
-            .lablec{
-                
+            .lablec hr{
+                width: 90%;
             }
 }
 
