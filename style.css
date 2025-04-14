@@ -1046,16 +1046,10 @@ hr{
     .foglalas_kerites2{
         height: 300px;
     }
-    .tartalom_foglalas_gomb {
-       
-        
-        
-    }
+    
     .foglalas_gomb{
         width: 250px;
-        
-        
-       
+
     }
 }
 
@@ -1121,8 +1115,11 @@ hr{
 }
 
 @media only screen and (min-width: 762px) and (max-width: 992px){
-    
+    .lablec hr{
+        width: 90%;
+    }
 }
+
 @media only screen and (min-width: 762px) and (max-width: 850px){
             .lablec_facebook_kep {
                 margin-left:20%;
@@ -1162,8 +1159,8 @@ hr{
                 margin-right: 20%;
                 margin-left: 20%;
             }
-            .lablec{
-                
+            .lablec hr{
+                width: 90%;
             }
 }
 
@@ -1207,9 +1204,7 @@ hr{
         margin-right: 20%;
         margin-left: 20%;
     }
-    .lablec{
-        
-    }
+   
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
@@ -1251,7 +1246,5 @@ hr{
         margin-right: 20%;
         margin-left: 20%;
     }
-    .lablec{
-        
-    }
+   
 }
