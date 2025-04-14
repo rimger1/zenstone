@@ -1050,16 +1050,10 @@ hr{
     .foglalas_kerites2{
         height: 300px;
     }
-    .tartalom_foglalas_gomb {
-       
-        
-        
-    }
+    
     .foglalas_gomb{
         width: 250px;
-        
-        
-       
+
     }
 }
 
@@ -1214,9 +1208,7 @@ hr{
         margin-right: 20%;
         margin-left: 20%;
     }
-    .lablec{
-        
-    }
+   
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
@@ -1258,7 +1250,5 @@ hr{
         margin-right: 20%;
         margin-left: 20%;
     }
-    .lablec{
-        
-    }
+   
 }
