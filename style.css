@@ -104,14 +104,21 @@ hr{
     margin-bottom: 30px;
 }
 .tartalom_etelek, .tartalom_erdekessekeg, .tartalom_foglalas{
+    display: flex;
+    justify-content: center;
     background-color: white;
     border-radius: 20px;
     width: 100%;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 4vw);
-    grid-gap: 5px;
+    
+}
+.tartalom_etelek2{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    
+    
 }
 .tartalom_foglalas{
     background-color: white;
@@ -199,6 +206,11 @@ hr{
     padding-bottom: 8px;
     border-radius: 15px;
     font-weight: bold;
+    
+}
+.tartalom_etelek_gomb2{
+        display: flex;
+        justify-content: center;
 }
 .tartalom_etelek_gomb{
     grid-column-start: 4;
