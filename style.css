@@ -125,6 +125,25 @@ hr{
     margin: 0;
     
 }
+.tartalom_etelek_cim{
+    padding-left: 7%;
+    padding-top:40px;
+    height: 350px;
+    width: 70%;
+    
+}
+.tartalom_etelek_cim p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;  
+    font-size:x-large;
+}
+.tartalom_etelek_cim h1{
+    
+    margin-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .tartalom_etelek2{
     background-color: white;
     border-radius: 20px;
@@ -144,10 +163,11 @@ hr{
     grid-gap: 5px;
 }
 .tartalom_etelek_kep{
-    grid-column-start: 8;
-    grid-column-end: 12;
-    grid-row-start: 2;
-    grid-row-end: 8;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .tartalom_erdekessekeg_kep{
     grid-column-start: 2;
@@ -164,12 +184,7 @@ hr{
 .tartalom_etelek_cim, .tartalom_erdekessekeg_cim, .tartalom_foglalas_cim{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.tartalom_etelek_cim{
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
+
 .tartalom_erdekessekeg_cim{
     grid-column-start: 6;
     grid-column-end: 8;
@@ -221,9 +236,14 @@ hr{
     font-weight: bold;
     
 }
+.tartalom_etelek_gomb{
+    display: flex;
+    align-items: center;
+}
 .tartalom_etelek_gomb2{
         display: flex;
         justify-content: center;
+        height: 100px;
 }
 .tartalom_etelek_gomb{
     grid-column-start: 4;
