@@ -5,17 +5,14 @@
 
 /*nav 5*/
 .checkbtn {
-    font-size: 1.5rem;
-    color: white;
     cursor: pointer;
 }
-.fejlec_navigacio {
+#check{
     display: none;
 }
 #check:checked ~ .fejlec_navigacio {
     display: block;
 }
-
 
 /*Fejléc:*/
 .fejlec{
@@ -26,21 +23,20 @@
     justify-content: space-between;
     position: fixed;
     z-index: +1;
-    /*border: 1px,black,solid;*/
 }
-.fejlec_navigacio_szoveg p a{
+.fejlec_navigacio a{
     text-decoration: none;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     word-spacing: 10px;
 }
-.fejlec_navigacio_szoveg p{
+.fejlec_navigacio{
     width: 600px;
     word-spacing: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.fejlec_navigacio_szoveg{
+.fejlec_navigacio{
     width: 600px;
     padding-top: 5.5%;
 }
@@ -818,18 +814,18 @@ hr{
 }
 
 /*Fejléc*/
-@media only screen and (min-width: 850px) and (max-width: 985px){
+@media only screen and (min-width: 763px) and (max-width: 985px){
     .fejlec{
         height: 120px;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
-    .fejlec_navigacio_szoveg{
+    .fejlec_navigacio{
         width: 524px;
         padding: 0;
     }
-    .fejlec_navigacio_szoveg p{
+    .fejlec_navigacio{
         margin: 0 auto;
         font-size: medium;
         width: 524px;
@@ -837,6 +833,9 @@ hr{
     .fejlec_navigacio{
         width: 524px;
         margin: 0 auto;
+        padding: 0px;
+        padding-bottom: 5px;
+        float: none;
     }
     .zenstone{
         width: 280px;
@@ -849,11 +848,37 @@ hr{
         padding-right: 7px;
     }
 }
-@media only screen and (min-width: 762px) and (max-width: 850px){
-    
+@media only screen and (min-width: /*576px*/350px) and (max-width: 762px){
+    .fejlec_navigacio {
+        display: none;
+    }    
+    .checkbtn {
+        display: block;
+        font-size: 5rem;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    .fejlec{
+        justify-content: center;
+    }
+    #check{
+        display: block;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    .fejlec_navigacio {
+        top: 160px;
+        width: 100%;
+    }
+    .fejlec_navigacio a {
+        font-size: 2rem;
+        padding: 2rem 3rem;
+    }
 }
-@media only screen and (min-width: 576px) and (max-width: 768px){
-
+    
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
 
