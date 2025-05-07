@@ -165,13 +165,27 @@ hr{
     padding-top: 40px;
     padding-bottom: 50px;
 }
+.tartalom_erdekessekeg{
+    display: flex;
+    flex-direction: column;
+}
+.tartalom_erdekessekeg1{
+    display: flex;
+    flex-direction: row;
+}
 
 .tartalom_erdekessekeg_kep{
-   
+    display: flex;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .tartalom_erdekessekeg_cim{
-    
-}
+    padding-right: 7%;
+    padding-top:40px;
+    height: 320px;
+    width: 70%;}
 .tartalom_erdekessekeg_cim h1{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -237,6 +251,7 @@ hr{
         display: flex;
         justify-content: center;
         height: 100px;
+        align-items: center;
 }
 .tartalom_etelek_gomb{
     
