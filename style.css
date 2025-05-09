@@ -250,8 +250,9 @@ hr{
 .tartalom_etelek_gomb2{
         display: flex;
         justify-content: center;
-        height: 100px;
+        height: 60px;
         align-items: center;
+        padding-bottom: 20px;
 }
 .tartalom_etelek_gomb{
     
