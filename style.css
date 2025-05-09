@@ -1017,8 +1017,54 @@ hr{
     
 }
 
-@media only screen and (min-width: 762px) and (max-width: 992px){
-    
+@media only screen and (min-width: 762px) and (max-width: 970px){
+    .robot_kerites {
+        height: 600px;
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .robot_kerites .robot{
+        margin: 0;
+        height: 530px;
+    }
+    .robot{
+        margin-left: 2%;
+        padding-top: 4%;    
+        padding-bottom: 8%;    
+        margin-right: 2%;
+    }
+    .robot_kep{
+        margin: 0;
+        border-radius: 35px; 
+        margin-left: 70px;  
+        margin-top: 50px;     
+    }
+    .robot_kep img{
+        width: 100%;
+        margin: 0;
+        border-radius: 35px; 
+        margin-left: 0;
+    }
+    .robot_szoveg{
+        font-size: large;
+        padding-left: 0;
+        width: 50%;
+    }
+    .robot_szoveg, .robot_szoveg h1{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    .robot_szoveg h1{
+        text-align: right;
+    }
+    .robot_szoveg p{
+        text-align: left;
+        font-size: x-large;
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
 @media only screen and (min-width: 762px) and (max-width: 850px){
     
