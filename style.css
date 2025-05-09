@@ -57,8 +57,7 @@
 /*Lábléc:*/
 
 .lablec{
-    background-color: white;
-    margin-top: 25px;   
+    background-color: white;   
 }
 hr{
     color: rgb(255, 108, 132);
@@ -272,7 +271,7 @@ hr{
 .tartalom:before {
     z-index: -1;
     content: '';
-    position: absolute;
+    position: fixed;
 
     opacity: 0.7;
     width: 100%;
@@ -286,6 +285,7 @@ hr{
     justify-content: space-evenly;
     padding-bottom: 8%;
     padding-top: 4%;
+    background-color: white;
 }
 .fooldal_celok_rolunk_kep{
     width: 250px;
@@ -315,6 +315,7 @@ hr{
     padding-top: 5%;
     background-image: url(iktkepek/celunkhatter.png);
     background-size: cover;
+    opacity: 100%;
 }
 .fooldal_celok_celunk_kep{
     width: 250px;
@@ -342,6 +343,7 @@ hr{
     justify-content: space-evenly;
     padding-bottom: 8%;
     padding-top: 4%;
+    background-color: white;
 }
 .fooldal_celok_ettortenelem_kep{
     width: 250px;
