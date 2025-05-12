@@ -155,6 +155,13 @@ hr{
     margin: 0;
     display: flex;
     flex-direction: column;
+    
+}
+.tartalom_foglalas h1{
+    padding:20px;
+}
+.tartalom_foglalas p{
+    padding:20px;
 }
 .tartalom_etelek_kep{
     display: flex;
@@ -248,9 +255,13 @@ hr{
         padding-bottom: 20px;
 }
 .tartalom_etelek_gomb{
-    display: flex;
-    align-items: center;
+    
     width: 350px;
+}
+.tartalom_foglalas_gomb{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 .tartalom_erdekessekeg_gomb{
     
