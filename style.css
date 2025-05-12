@@ -749,7 +749,21 @@ hr{
 }
 
 @media only screen and (min-width: 763px) and (max-width: 992px){
+        .tartalom_etelek{
+            height: 600px;
+        }
+        .tartalom_etelek_kep .galery_kep{
+            height: 90%;
+            width: 100%;
+        }
+        .tartalom_etelek_kep{
+            height: 80%;
+            width: 60%;
+        }
 
+        .tartalom_erdekessekeg1{
+            height: 600px;
+        }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 762px){
