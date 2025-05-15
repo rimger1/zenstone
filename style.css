@@ -1393,7 +1393,8 @@ hr{
 
 @media only screen and (min-width: 350px) and (max-width: 762px){
     #check:checked ~ .fejlec_navigacio {
-        display: block;
+        display: flex;
+        font-size: 25px;
     }
     .checkbtn{
         display: inline-block;
@@ -1405,9 +1406,13 @@ hr{
     #check{
         display: none;
     }
-    .checkbtn:checked ~ .checkbtn{
-        background-image: url(iktkepek/felnyil.png);
+    input[type="checkbox"]:checked + label{
+        transform: rotate(180deg);
+        transition: 0.5s;
     }
+    input[type="checkbox"] + label  {
+        transition: 0.5s;
+      }
 }
 
 
