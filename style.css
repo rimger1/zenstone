@@ -10,9 +10,6 @@
 #check{
     display: none;
 }
-#check:checked ~ .fejlec_navigacio {
-    display: block;
-}
 
 /*Fejléc:*/
 .fejlec{
@@ -1355,11 +1352,23 @@ hr{
 
 }
 
-@media only screen and (min-width: 576px) and (max-width: 762px){
-
-}
-@media only screen and (min-width: 350px) and (max-width: 576px){
-    
+@media only screen and (min-width: 350px) and (max-width: 762px){
+    #check:checked ~ .fejlec_navigacio {
+        display: block;
+    }
+    .checkbtn{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        background-image: url(iktkepek/lenyil.png);
+    }
+    #check{
+        display: none;
+    }
+    .checkbtn:checked ~ .checkbtn{
+        background-image: url(iktkepek/felnyil.png);
+    }
 }
 
 
