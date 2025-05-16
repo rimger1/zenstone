@@ -738,7 +738,7 @@ hr{
 
 @media only screen and (min-width: 576px) and (max-width: 763px){
     .tartalom_etelek{
-        height: 850px;
+        height: 840px;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
@@ -778,8 +778,139 @@ hr{
         
     }
 }
-@media only screen and (min-width: 350px) and (max-width: 576px){
+@media only screen and (min-width: 460px) and (max-width: 576px){
     
+    .tartalom_etelek{
+        height: 1100px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .tartalom_etelek_cim{
+        padding-left: 0;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        height: 500px;
+    }
+    .tartalom_etelek_cim p{
+        
+    }
+    .tartalom_etelek_kep .galery_kep{
+        height: 100%;
+        width: 100%;
+    }
+    .tartalom_etelek_kep{
+        height: 40%;
+        width: 70%;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .tartalom_etelek_gomb a{
+        font-size:x-large;
+        text-align: center;
+        
+    }
+    .tartalom_etelek_gomb{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tartalom_etelek_gomb2{
+        justify-content: center;
+    }
+    .tartalom_erdekessekeg_kep{
+        height: 37%;
+        padding-bottom: 0;
+    }
+    .tartalom_erdekessekeg_cim{
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 100px;
+        height: 400px;
+        padding-top: 20px;
+    }
+
+    .tartalom_erdekessekeg1{
+        height: 900px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 460px)
+{
+     
+    .tartalom_etelek{
+        height: 1100px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .tartalom_etelek_cim{
+        padding-left: 0;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        height: 530px;
+    }
+    .tartalom_etelek_cim p{
+        font-size: larger;
+    }
+    .tartalom_etelek_kep .galery_kep{
+        height: 100%;
+        width: 100%;
+    }
+    .tartalom_etelek_kep{
+        height: 40%;
+        width: 70%;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .tartalom_etelek_gomb a{
+        font-size:x-large;
+        text-align: center;
+        
+    }
+    .tartalom_etelek_gomb{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tartalom_etelek_gomb2{
+        justify-content: center;
+    }
+    .tartalom_erdekessekeg_kep{
+        height: 37%;
+        padding-bottom: 0;
+    }
+    .tartalom_erdekessekeg_cim{
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 100px;
+        height: 400px;
+        padding-top: 20px;
+    }
+    .tartalom_erdekessekeg_cim p{
+        font-size: larger;
+    }
+
+    .tartalom_erdekessekeg1{
+        height: 900px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
 
 
