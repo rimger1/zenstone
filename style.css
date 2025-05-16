@@ -1392,12 +1392,27 @@ hr{
 }
 
 @media only screen and (min-width: 350px) and (max-width: 762px){
-    #check:checked ~ .fejlec_navigacio {
-        display: flex;
+    #check:checked  .fejlec_navigacio{
+        display: block;
         font-size: 25px;
+        padding: 0;
+        margin: 0;
+        align-items: baseline;
+    }
+    .fejlec_navigacio > a{
+        margin: 0;
+        padding: 0;
+    }
+    .fejlec{
+        height: 300px;
+    }
+    .semmi{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .checkbtn{
-        display: inline-block;
+        display: inline;
         width: 32px;
         height: 32px;
         cursor: pointer;
