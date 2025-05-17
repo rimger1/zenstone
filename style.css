@@ -751,7 +751,7 @@ hr{
     }
     .tartalom_etelek_kep .galery_kep{
         height: 100%;
-        width: 120%;
+        width: 100%;
     }
     .tartalom_etelek_kep{
         height: 40%;
@@ -759,7 +759,8 @@ hr{
         padding-bottom: 0;
     }
     .tartalom_erdekessekeg_kep{
-        height: 37%;
+        height: 40%;
+        width: 60%;
         padding-bottom: 0;
     }
     .tartalom_erdekessekeg_cim{
@@ -778,13 +779,14 @@ hr{
         
     }
 }
-@media only screen and (min-width: 460px) and (max-width: 576px){
+@media only screen and (min-width: 503px) and (max-width: 576px){
     
     .tartalom_etelek{
-        height: 1100px;
+        height: 900px;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        
+        justify-content: flex-end;
         
     }
     .tartalom_etelek_cim{
@@ -843,14 +845,14 @@ hr{
         
     }
 }
-@media only screen and (min-width: 350px) and (max-width: 460px)
+@media only screen and (min-width: 350px) and (max-width: 503px)
 {
      
     .tartalom_etelek{
-        height: 1100px;
+        height: 940px;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         
     }
     .tartalom_etelek_cim{
@@ -869,11 +871,12 @@ hr{
         width: 100%;
     }
     .tartalom_etelek_kep{
-        height: 40%;
-        width: 70%;
+        height: 35%;
+        width: 80%;
         padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
         
     }
     .tartalom_etelek_gomb a{
@@ -892,6 +895,8 @@ hr{
     .tartalom_erdekessekeg_kep{
         height: 37%;
         padding-bottom: 0;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .tartalom_erdekessekeg_cim{
         text-align: center;
@@ -905,11 +910,14 @@ hr{
     }
 
     .tartalom_erdekessekeg1{
-        height: 900px;
+        height: 990px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         
+    }
+    .tartalom_foglalas_szoveg p{
+        font-size: large;
     }
 }
 
