@@ -1023,16 +1023,16 @@ hr{
         flex-direction: column;
     }
     .fejlec_navigacio{
-        width: 524px;
+        width: 593px;
         padding: 0;
     }
     .fejlec_navigacio{
         margin: 0 auto;
         font-size: medium;
-        width: 524px;
+        width: 593px;
     }
     .fejlec_navigacio{
-        width: 524px;
+        width: 593px;
         margin: 0 auto;
         padding: 0px;
         padding-bottom: 5px;
@@ -1076,7 +1076,6 @@ hr{
     }
     .fejlec_navigacio a {
         font-size: 2rem;
-        padding: 2rem 3rem;
     }
 }
     
@@ -1632,25 +1631,31 @@ hr{
 }
 
 @media only screen and (min-width: 350px) and (max-width: 762px){
-    #check:checked  .fejlec_navigacio{
-        display: block;
-        font-size: 25px;
-        padding: 0;
-        margin: 0;
-        align-items: baseline;
-    }
-    .fejlec_navigacio > a{
-        margin: 0;
-        padding: 0;
+    #check:checked ~ .fejlec_navigacio{
+        display: flex;
+        background-color: #ff94bb;
     }
     .fejlec{
-        height: 300px;
-    }
-    .semmi{
+        height: fit-content;
+        min-height: 120px;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
+    .navlink{
+        padding: 0px;
+        color: white;
+    }
+    .fejlec_navigacio{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
     .checkbtn{
         display: inline;
         width: 32px;
