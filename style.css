@@ -1288,10 +1288,111 @@ hr{
         font-size: x-large;
         margin-left: 0;
         margin-top: 10px;
+        margin: auto;
     }
 }
 @media only screen and (min-width: 350px) and (max-width: 576px){
+    .robot_kerites {
+        height: 200%;
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .robot_kerites .robot{
+        margin: 0;
+        height: 200%;
+    }
+    .robot{
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-top: 4%;    
+        padding-bottom: 7%; 
+        flex-direction: column 
+    }
+    .robot_kep{
+        margin: 0 auto;
+        border-radius: 35px; 
+        margin-top: 10px; 
+        width: 60%;
+    }
+    .robot_kep img{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 35px; 
+        margin-left: 0;
+    }
+    .robot_szoveg{
+        font-size: large;
+        padding-left: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .robot_szoveg, .robot_szoveg h1{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    .robot_szoveg h1{
+        text-align: center;
+    }
+    .robot_szoveg p{
+        text-align: center;
+        font-size: x-large;
+        margin-left: 0;
+        margin-top: 10px;
+    }
 
+
+    .erdekessegek_arkadok_kerites {
+        height: 200%;
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .erdekessegek_arkadok_kerites .erdekessegek_arkadok{
+        margin: 0;
+        height: 200%;
+    }
+    .erdekessegek_arkadok{
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-top: 4%;    
+        padding-bottom: 7%; 
+        flex-direction: column-reverse;
+    }
+    .erdekessegek_arkadok_kep{
+        margin: 0 auto;
+        border-radius: 35px; 
+        margin-top: 10px; 
+        width: 60%; 
+    }
+    .erdekessegek_arkadok_kep img{
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 35px; 
+        margin-left: 0;
+    }
+    .erdekessegek_arkadok_szoveg{
+        font-size: large;
+        padding-left: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .erdekessegek_arkadok_szoveg, .erdekessegek_arkadok_szoveg h1{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    .erdekessegek_arkadok_szoveg h1{
+        text-align: center;
+    }
+    .erdekessegek_arkadok_szoveg p{
+        text-align: center;
+        font-size: x-large;
+        margin-left: 0;
+        margin-top: 10px;
+        margin: auto;
+    }
 }
 
 
